@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FoodDelivery"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.BtsDeliveryTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CouponWalletActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.VoucherInactivatedFragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.VoucherUsedFragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.VoucherActivatedFragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LikeRestaurantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RatingRestaurantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SearchFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SearchPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddToCartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OrderDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PaymentMethodsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UpdateOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ConfirmOTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ConfirmOrdersActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activity.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OrdersTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PersonalAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.StoreInformationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddressBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddNewOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.EnterPasswordActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activity.OrdersActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activity.AddLocationnActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activity.RatingAndReviewActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activity.AccountActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activity.Welcome"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
